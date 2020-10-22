@@ -47,7 +47,6 @@ socket.on('user-disconnected', userId => {
 })
 
 
-
 function connectToNewUser(userId, stream) {
     const call = myPeer.call(userId, stream)
     const video = document.createElement('video')
